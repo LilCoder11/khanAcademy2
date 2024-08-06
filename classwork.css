@@ -440,6 +440,7 @@ footer{
   text-align: center;
 }
 footer{
+  padding-top: 30px;
   flex-direction: column;
   background-color: #0b2149;
 }
