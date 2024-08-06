@@ -1,0 +1,508 @@
+/* header {
+  display: flex;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+section {
+  margin: 10rem;
+}
+.FreeEducation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+
+
+
+@media screen and (max-width:320px) {
+  .FreeEducation{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:320px) {
+  .heading1{
+    width: 200px;
+  }
+}
+.heading {
+  font-size: 40px;
+  font-style: bold;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.tutors {
+  font-weight: 400;
+  color: #827676;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media screen and (max-width:320px) {
+  .teach{
+    width: 200px;
+  }
+}
+.khan1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width:320px) {
+  .khan1{
+    flex-direction: column;
+  }
+}
+.content {
+  width: 31%;
+  text-align: center;
+}
+@media screen and (max-width:320px) {
+  .content{
+    width: 200px;
+  }
+}
+.image {
+  object-fit: fill;
+  object-position: center;
+  height: 200px;
+  width: 200px;
+}
+.anjaliPic {
+  display: flex;
+  justify-content: right;
+}
+.Anjali {
+  display: flex;
+}
+@media screen and (max-width:320px) {
+  .Anjali{
+    flex-direction: column;
+    width: 200px;
+  }
+}
+
+.unicorn {
+  width: 600px;
+}
+.joinkhanacademytoday {
+  text-align: center;
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgb(83, 117, 231);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.students {
+  width: 600px;
+}
+@media screen and (max-width:320px) {
+  .students{
+    width:300px
+  }
+}
+@media screen and (max-width:320px) {
+  .girls{
+    width: 300px;
+  }
+}
+.teachers {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width:320px) {
+  .teachers{
+    flex-direction: column;
+  }
+}
+.learnersandstudents {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width:320px) {
+  .learnersandstudents{
+    flex-direction: column;
+    width: 200px;
+  }
+}
+.laptop{
+    width:500px;
+}
+@media screen and (max-width:320px) {
+  .laptop{
+    width: 300px;
+  }
+}
+
+footer {
+  color: white;
+  background-color: rgb(16, 16, 81);
+}
+
+
+
+
+.supporters {
+  text-align: center;
+  font-size: 40px;
+  font-style: bold;
+} */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+li{
+text-decoration: none;
+}
+section {
+  margin: 2rem;
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: #1865f2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.heading {
+  font-size: 40px;
+  font-style: bold;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(172, 165, 165);
+  border-radius: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: blue;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.h{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.courses{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* header */
+header{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 10px;
+  text-align: center;
+  padding: 10px
+}
+
+.lists{
+  justify-content: center;
+ display: flex;
+ gap: 14px;
+  padding: 0;
+}
+
+/* herosection */
+.FreeEducation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.whykhan{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+.khan1{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+.students{
+  width: 300px;
+}
+.teachers{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.learnersandstudents{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.laptop{
+  width: 300px;
+}
+h5{
+  color: #c5c4c8;
+}
+.anjali{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.anjaliPic{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+}
+.unicorn{
+  width: 300px;
+}
+.difference{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.joinkhanacademytoday{
+  align-items: center;
+  text-align: center;
+}
+footer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  background-color: #0b2149;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mission2 {
+  display: flex;
+  flex-direction: column;
+}
+.language {
+  display: flex;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.country {
+  display: flex;
+}
+.media {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+.keysupporters{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.keys{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lists{
+  color: blue;
+}
+.girls{
+  width: 200px;
+}
+.image{
+  width: 150px;
+}
+
+
+@media screen and (min-width:328px) {
+  header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+/* herosection */
+.FreeEducation{
+
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+
+}
+.unicorn{
+  width: 600px;
+}
+.girls{
+  width: 600px;
+}
+.FreeEducationText{
+  text-align: left;
+}
+.image{
+  width: 300px;
+}
+.laptop{
+  width: 300px;
+}
+
+/* why khan academy works */
+.khan1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.keys{
+  flex-direction: column;
+}
+.teachers {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: left;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.learnersandstudents {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+}
+.difference {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+.lists{
+  color: blue;
+}
+.joinkhanacademytoday {
+  align-items: center;
+  text-align: center;
+}
+footer{
+  flex-direction: column;
+  background-color: #0b2149;
+}
+.mission{
+  flex-direction: row;
+}
+.mission2{
+  flex-direction: column;
+}
+a{
+  color: white;
+}
+.language {
+  display: flex;
+}
+.copyright {
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.media{
+  justify-content: right;
+}
+.students{
+  width: 600px;
+}
+.anjali{
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+.anjaliPic {
+  text-align: right;
+  flex-direction: row;
+}
+.supporters{
+  text-align: center;
+}
+.keysupporters{
+  flex-direction: row;
+  padding: 40px;
+}
+.lists{
+  color: blue;
+}
+.h{
+  flex-direction: row;
+  gap: 50px;
+}
+.li{
+  flex-direction: row;
+  gap: 10px;
+}
+.search{
+  flex-direction: row;
+  gap: 50px;
+  background-color: rgb(172, 165, 165);
+  border-radius: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: blue;
+}
+}
+
+
